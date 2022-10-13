@@ -24,3 +24,18 @@ print(3 <= 4)
 print(3 == 4)
 print(3 != 4)
 print(3 > 4 == 2)
+
+print("hola" < "Python")
+print("hola" > "Python")
+print("hola" == "Python")
+print(len("hola") >= len("Python"))
+print("hola" <= "Python")
+print("hola" != "Python")
+
+### Operadores Lógicos ###
+
+print(3 > 4 and "hola" > "Python")  ##&&
+print(3 > 4 or "hola" > "Python")   ##||
+print(3 < 4 and "hola" < "Python")  ##&&
+print(3 < 4 or "hola" < "Python")   ##||
+print(not (3 > 4 ))  ##!=
