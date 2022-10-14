@@ -51,7 +51,12 @@ print(languaje_slice)
 reverse_lenguaje = languaje[::-1]
 print(reverse_lenguaje)
 
-# fucniones del sistema
+# Fuciones del sistema
 
 print(languaje.capitalize())
-print(languaje.upper)
+print(languaje.upper())
+print(languaje.count("t"))
+print("1".isnumeric())
+print(languaje.lower())
+print(languaje.upper().isupper())
+print(languaje.startswith("py"))
