@@ -40,4 +40,5 @@ my_other_set = {"ando", "1234"}
 my_new_set = my_set.union(my_other_set)
 print(my_new_set.union({"Java", "C#"}))
 
-print(my_new)
+print(my_new_set)
+print(my_new_set.difference(my_set))
