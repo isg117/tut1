@@ -28,3 +28,13 @@ my_dict["Nombre"] = "Pedro"
 print(my_dict["Nombre"])
 
 print(my_dict[1])
+
+my_dict["Calle"] = "Calle Isg"
+print(my_dict)
+
+del my_dict["Calle"]
+print(my_dict)
+
+print("Apellido"in my_dict)
+print("Isg" in my_dict)
+
